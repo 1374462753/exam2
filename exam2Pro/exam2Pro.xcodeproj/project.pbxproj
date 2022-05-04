@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D19A96BA282280E300F4077F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D19A96B9282280E300F4077F /* main.cpp */; };
+		D19A96C32822932F00F4077F /* sumOfCube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D19A96C12822932F00F4077F /* sumOfCube.cpp */; };
+		D19A96C62822939B00F4077F /* tail_sumOfCube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D19A96C52822939B00F4077F /* tail_sumOfCube.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		D19A96B6282280E300F4077F /* exam2Pro */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exam2Pro; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19A96B9282280E300F4077F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D19A96C12822932F00F4077F /* sumOfCube.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sumOfCube.cpp; sourceTree = "<group>"; };
+		D19A96C52822939B00F4077F /* tail_sumOfCube.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tail_sumOfCube.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				D19A96B9282280E300F4077F /* main.cpp */,
+				D19A96C12822932F00F4077F /* sumOfCube.cpp */,
+				D19A96C52822939B00F4077F /* tail_sumOfCube.cpp */,
 			);
 			path = exam2Pro;
 			sourceTree = "<group>";
@@ -118,7 +124,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19A96C62822939B00F4077F /* tail_sumOfCube.cpp in Sources */,
 				D19A96BA282280E300F4077F /* main.cpp in Sources */,
+				D19A96C32822932F00F4077F /* sumOfCube.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
